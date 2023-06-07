@@ -1,0 +1,18 @@
+{
+  "name": "jira-xray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:second": "npx cypress run --spec 'cypress/e2e/SS_spec_2_visit_pages.cy.js'",
+    "jira:import:test:results": "curl.exe -H \"Content-Type: text/xml\" -X POST -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiI0YzgxMWUyZS1lODQwLTNmNjctYjllMC0wZDNhMTdmYzRiMzYiLCJhY2NvdW50SWQiOiI3MTIwMjA6YTViNzE2YTQtYWY3NS00MTA2LTlmZjUtNzY5YTI0ZWVmZGJkIiwiaXNYZWEiOmZhbHNlLCJpYXQiOjE2ODYxNDAzMjYsImV4cCI6MTY4NjIyNjcyNiwiYXVkIjoiQjUxQTY1RThGRUEzNDU5Q0IyNzhCMzUzMzRCNzQ0RjciLCJpc3MiOiJjb20ueHBhbmRpdC5wbHVnaW5zLnhyYXkiLCJzdWIiOiJCNTFBNjVFOEZFQTM0NTlDQjI3OEIzNTMzNEI3NDRGNyJ9.tqn9m4L-rsA7bpawkOkc2ELjvJKN8sSBIeGyetceZ3Y\"  --data @"C:\Users\79636\Desktop\Jira-Xray\test-results.xml" https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=SAN"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^2.2.0"
+  }
+}

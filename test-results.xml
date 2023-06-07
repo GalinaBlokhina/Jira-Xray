@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.853" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-07T08:33:35" tests="0" file="cypress\e2e\SS_spec_2_visit_pages.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Secret Santa second test of box, new box, randomizer and account pages" timestamp="2023-06-07T08:33:35" tests="4" time="31.818" failures="0">
+    <testcase name="Secret Santa second test of box, new box, randomizer and account pages boxes page test" time="9.313" classname="boxes page test">
+    </testcase>
+    <testcase name="Secret Santa second test of box, new box, randomizer and account pages new box page test" time="6.802" classname="new box page test">
+    </testcase>
+    <testcase name="Secret Santa second test of box, new box, randomizer and account pages randomizer page test" time="6.326" classname="randomizer page test">
+    </testcase>
+    <testcase name="Secret Santa second test of box, new box, randomizer and account pages account page test" time="6.677" classname="account page test">
+    </testcase>
+  </testsuite>
+</testsuites>
